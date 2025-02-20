@@ -47,7 +47,12 @@ Step 7: Access you nodejs application UI from browser
 
 Step 1: start mongodb and mongo-express
 
-    docker-compose -f docker-compose.yaml up
+    docker-compose -f docker-compose.yaml up -d
+
+To stop mongodb and mongo-express
+
+    docker-compose -f docker-compose.yaml down
+
     
 _You can access the mongo-express under localhost:8080 from your browser_
     
